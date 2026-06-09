@@ -148,7 +148,7 @@ A dedicated block [build_interaction_features](src/preprocessing.py#L244) constr
   - `ANNUITY_TO_INCOME_RATIO`: Total annuity relative to applicant income.
   - `CREDIT_TO_GOODS_RATIO`: Credit size vs. targeted goods price.
   - `LOAN_REPAYMENT_YEARS`: Estimated payoff duration calculated as:
-    $$\text{LOAN\_REPAYMENT\_YEARS} = \frac{\text{AMT\_CREDIT}}{\text{AMT\_ANNUITY} \times 12}$$
+    $$\text{Loan Repayment Years} = \frac{\text{Credit Amount}}{\text{Annuity Amount} \times 12}$$
   - `INCOME_PER_PERSON`: Total income divided by family count.
 * **Demographics & Lifestage Metrics**: `YOUNG_AND_NEW_JOB` binary flag (age < 35 & employment < 1 year), employment-to-age ratio, and registration-to-birth ratios.
 * **Bureau Debt Coverage**: outstanding debt from credit bureau relative to client income and credit size.
